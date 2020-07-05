@@ -243,7 +243,7 @@ i{
 
 
 
-@media(max-width:1020px){
+@media(max-width:1024px){
     .banner-content{
         text-align: center;
         margin-top: 80px;
@@ -252,6 +252,9 @@ i{
    .banner-img{
     margin-top: 50px;
     margin-left: 0px;
+}
+.btn2{
+    margin-top: 0px !important;
 }
 .buttun{
     margin-right: 30px;
@@ -295,10 +298,29 @@ form{
     width: 100%;
     margin: auto;
 }
+
 .butt{
     text-align: center;
 }
 .cont{
     margin-left: 0px;
 }
+}
+@media(max-width:1020px){
+    .buttun{
+        margin-left: 0px;
+        margin-bottom: 0px !important;
+    } 
+   
+ 
+ }
+@media(max-width:778px){
+   .buttun{
+       margin-left: 29px;
+       
+   } 
+   .btn2{
+       margin-top: 10px;
+   }
+
 }
